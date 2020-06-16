@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="./index.css">
+    <title>Hello, world!</title>
+</head>
+
+<body data-spy="scroll" data-target="#navbar" data-offset="65">
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a id="header" class="navbar-brand" href="#">
+                <img src="assets/images/platzi-logo.webp" alt="Platzi Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"
+                aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#main">Conferencia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#speakers">Oradores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#place-time">Lugar y Fecha</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#conviertete-orador">Convertirte en Orador</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link text-platzi" data-toggle="modal" data-target="#exampleModal" href="#">Comprar
+                            Tickets</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Main -->
+    <main id="main">
+        <div id="carousel" class="carousel slide" data-ride="carousel" data-pause="false">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/images/maldivas1.jpeg" class="d-block w-100 carousel-image"
+                        alt="Maldivas Imagen 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/images/maldivas2.jpg" class="d-block w-100 carousel-image" alt="Maldivas Imagen 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/images/maldivas3.webp" class="d-block w-100 carousel-image"
+                        alt="Maldivas Imagen 3">
+                </div>
+                <div class="overlay">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-md-6 offset-md-6 text-md-right text-center">
+                                <h1>Platzi Conf Maldivas</h1>
+                                <p class="d-none d-md-block">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                    sed do eiusmod tempor incididunt ut labore et dolore
+                                    magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris incididunt ut labore et dolore
+                                    magna aliqua. Ut enim.
+                                </p>
+                                <a href="#" class="btn btn-outline-light">Quiero ser orador</a>
+                                <button type="button" class="btn btn-platzi" data-toggle="modal"
+                                    data-target="#exampleModal">Comprar Tickets</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Speakers -->
+    <section id="speakers" class="mt-4 mb-4">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center text-uppercase">
+                    <small>Conoce a los</small>
+                    <h2>Oradores</h2>
+                </div>
+            </div>
+            <div class="row m-4 justify-content-center">
+                <div class="col-lg-4 col-md-6 col-sm-8 col-12 mb-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="assets/images/person1.jpg" class="card-img-top" alt="Orador 1">
+                        <div class="card-body">
+                            <h5 class="card-title mb-0">Card title</h5>
+
+                            <div class="badges">
+                                <span class="badge badge-warning">HTML 5</span>
+                                <span class="badge badge-danger">CSS 3</span>
+                            </div>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-8 col-12 mb-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="assets/images/person2.jpg" class="card-img-top" alt="Orador 1">
+                        <div class="card-body">
+                            <h5 class="card-title mb-0">Card title</h5>
+
+                            <div class="badges">
+                                <span class="badge badge-warning">HTML 5</span>
+                                <span class="badge badge-danger">CSS 3</span>
+                            </div>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-8 col-12 mb-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="assets/images/person3.jpg" class="card-img-top" alt="Orador 1">
+                        <div class="card-body">
+                            <h5 class="card-title mb-0">Card title</h5>
+
+                            <div class="badges">
+                                <span class="badge badge-warning">HTML 5</span>
+                                <span class="badge badge-danger">CSS 3</span>
+                            </div>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-8 col-12 mb-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="assets/images/person1.jpg" class="card-img-top" alt="Orador 1">
+                        <div class="card-body">
+                            <h5 class="card-title mb-0">Card title</h5>
+
+                            <div class="badges">
+                                <span class="badge badge-warning">HTML 5</span>
+                                <span class="badge badge-danger">CSS 3</span>
+                            </div>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-8 col-12 mb-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="assets/images/person2.jpg" class="card-img-top" alt="Orador 1">
+                        <div class="card-body">
+                            <h5 class="card-title mb-0">Card title</h5>
+
+                            <div class="badges">
+                                <span class="badge badge-warning">HTML 5</span>
+                                <span class="badge badge-danger">CSS 3</span>
+                            </div>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-8 col-12 mb-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="assets/images/person3.jpg" class="card-img-top" alt="Orador 1">
+                        <div class="card-body">
+                            <h5 class="card-title mb-0">Card title</h5>
+
+                            <div class="badges">
+                                <span class="badge badge-warning">HTML 5</span>
+                                <span class="badge badge-danger">CSS 3</span>
+                            </div>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lugar y Fecha -->
+    <section id="place-time">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-lg-6 p-0">
+                    <img src="assets/images/maldivas3.jpg" alt="Maldivas">
+                </div>
+                <div class="col-12 col-lg-6 pb-4">
+                    <h2 class="pt-3">Maldivas - Octubre 2023</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                        velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    <a class="btn btn-outline-light " href="#">Conoce más</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Conviertete en Speaker -->
+    <section id="conviertete-orador">
+        <div class="container p-4">
+            <div class="row">
+                <div class="col text-center">
+                    <small class="text-uppercase">
+                        Conviertete en un <h2>ORADOR</h2>
+                    </small>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-center">
+                    Cuentanos de que tema te gustaria hablar en tu
+                    <abbr data-toggle="tooltip" title="Charla de 5 minutos">ignite</abbr>.
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-md-10 offset-md-1 pt-3">
+                    <form>
+                        <div class="row">
+                            <div class="col-12 col-md-6 pb-2">
+                                <input type="text" class="form-control" placeholder="Nombre">
+                            </div>
+                            <div class="col-12 col-md-6 pb-2">
+                                <input type="text" class="form-control" placeholder="Apellido">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col">
+                                <textarea name="text" id="" cols="3" class="form-control form-control-lg"
+                                    placeholder="¿De te gustaría hablar?" rows="3"></textarea>
+                                <small class="form-text text-muted">
+                                    Recuerda incluir un títutlo para tu charla.
+                                </small>
+                            </div>
+                        </div>
+                        <div class="form-row pt-2 pb-2">
+                            <div class="col">
+                                <div type="button" class="btn btn-platzi btn-block">Enviar</div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer" class="pb-4 pt-4">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-12 col-md">
+                    <a href="#">FAQ</a>
+                </div>
+                <div class="col-12 col-md">
+                    <a href="#">Contactanos</a>
+                </div>
+                <div class="col-12 col-md">
+                    <a href="#">Prensa</a>
+                </div>
+                <div class="col-12 col-md">
+                    <a href="#">FAQ</a>
+                </div>
+                <div class="col-12 col-md">
+                    <a href="#">Contactanos</a>
+                </div>
+                <div class="col-12 col-md">
+                    <a href="#">Prensa</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Comprar Tickets</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form action="">
+                        <div class="form-row">
+                            <div class="form-group col">
+                                <label for="basic-url">Ingresa tu usuario de platzi</label>
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"
+                                            id="basic-addon3">https://example.com/users/</span>
+                                    </div>
+                                    <input type="text" class="form-control" id="basic-url"
+                                        aria-describedby="basic-addon3">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="alert alert-warning" role="alert">
+                        Recibiras un correo para continuar con tu compra.
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-platzi">Comprar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
